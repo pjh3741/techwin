@@ -6,16 +6,13 @@
     fallBtn = btnList[2];
 
     exclusionBtn.addEventListener("click", async function () {
-      sessionStorage.setItem("state", "exclusion");
-      location.href = "http://192.168.2.216/home/setup/opensdk/html/SG_Safety/pages/analysis/index.html";
+      location.href = "http://192.168.2.201/home/setup/opensdk/html/SG_Safety/pages/analysis/index.html#1";
       
     });
     wearBtn.addEventListener("click", async function () {
-      sessionStorage.setItem("state", "wear_setting");
-      location.href = "http://192.168.2.216/home/setup/opensdk/html/SG_Safety/pages/analysis/index.html";
+      location.href="http://192.168.2.201/home/setup/opensdk/html/SG_Safety/pages/analysis/index.html#2";
     });
     fallBtn.addEventListener("click", async function () {
-      sessionStorage.setItem("state", "fall_setting");
-      location.href = "http://192.168.2.216/home/setup/opensdk/html/SG_Safety/pages/analysis/index.html";
+      location.href = "http://192.168.2.201/home/setup/opensdk/html/SG_Safety/pages/analysis/index.html#3";
     });
   });
