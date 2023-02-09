@@ -5,6 +5,10 @@
     wearBtn = btnList[1];
     fallBtn = btnList[2];
 
+    document.getElementById("Home").addEventListener("click", () => {
+      location.reload()
+    })
+    
     exclusionBtn.addEventListener("click", async function () {
       location.href = "http://192.168.2.201/home/setup/opensdk/html/SG_Safety/pages/analysis/index.html#1";
       
